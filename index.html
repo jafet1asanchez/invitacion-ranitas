@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación de Ranitas</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- BURBUJAS -->
+  <div class="bubbles"></div>
+
+  <!-- RANITAS -->
+  <div class="frog frog1">🐸</div>
+  <div class="frog frog2">🐸</div>
+  <div class="frog frog3">🐸</div>
+
+  <!-- GLOBOS -->
+  <div class="balloons">
+    <div class="balloon">🎈</div>
+    <div class="balloon">🎉</div>
+    <div class="balloon">🎈</div>
+  </div>
+
+  <!-- PANTALLA DE BIENVENIDA -->
+  <section class="welcome" id="welcome">
+
+   
+
+    <h1>🐸 ¿Amiguitos, están listos? 🐸</h1>
+
+    <p>
+      Las ranitas tienen una pregunta para ti...
+    </p>
+
+    <button onclick="startParty()">
+      ¡Sí, estoy listo para la fiesta!
+    </button>
+
+  </section>
+
+  <!-- INVITACIÓN -->
+  <section class="invitation" id="invitation">
+
+    <div class="card">
+
+    <div class="card-image">
+        <img src="foto.jpeg" alt="Fiesta de Ranitas">
+    </div>
+
+      <div class="emoji">🐸✨🎉</div>
+
+      <h2>¡Estás Invitado!</h2>
+
+      <h3>Fiesta Infantil de Ranitas</h3>
+
+      <div class="info">
+
+        <p><strong>👧 Festejada:</strong> Paulina</p>
+
+        <p><strong>📅 Fecha:</strong> Sábado 13 de Junio</p>
+
+        <p><strong>🕓 Hora:</strong> 2:30 PM</p>
+
+        <p><strong>📍 Lugar:</strong> El Arcangel II, Calle Angel Hazael (La Palapa)</p>
+
+      </div>
+
+      <div class="emoji">🐸🎂🎈</div>
+
+      <div class="music">
+        Prepárate para brincar, jugar y divertirte muchísimo con Rene y muchas sorpresas más 💚
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- AUDIO -->
+  <audio id="bgMusic" loop>
+    <source src="rene.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
